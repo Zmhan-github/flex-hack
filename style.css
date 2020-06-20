@@ -1,0 +1,60 @@
+:root {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    box-sizing: inherit;
+    background-color: #333;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex div:not(.box3):not(.box3_2) {
+    margin: 10px;
+}
+
+.box1{
+    flex: 1 1 300px;
+    height: 200px;
+    background-color: red;
+}
+
+.box2{
+    flex: 2 1 700px;
+    height: 200px;
+    background-color: orange;
+}
+
+.box3{
+    flex: 1 1 700px;
+}
+
+.box4 {
+    flex: 1 2 300px;
+    height: 400px;
+    background: green;
+}
+
+.box3_1 {
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.box3_2 {
+    display: flex;
+    height: 200px;
+}
+
+.box3_2_1 {
+    width: 50%;
+    background-color: #1ce;
+}
+
+.box3_2_2 {
+    width: 50%;
+    background-color: brown;
+}
